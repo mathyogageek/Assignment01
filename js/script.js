@@ -1,5 +1,5 @@
 // Step 1
-console.log("This is Step 1");
+console.log("This is Step 1-1");
 
 // Step 2
 function stepTwo() {
