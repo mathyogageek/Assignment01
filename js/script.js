@@ -1,5 +1,12 @@
 // Step 1
-console.log("This is Step 1-1");
+console.log("This is Step 1");
+
+let someMonth;
+function theMonth();
+let currentMonth;
+let summerMonth;
+let myLibraryFunction;
+
 
 // Step 2
 function stepTwo() {
