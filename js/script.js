@@ -1,27 +1,54 @@
 
 
+let someMonth;
+function theMonth() {
+  
+  let currentMonth;
+  let summerMonth;
+  let myLibraryFunction;
 
-console.log("This is Step 1");
+  
+  currentMonth = "June";
+  summerMonth = true;
+  myLibraryFunction = function() {
+    console.log("My Library Function");
+  };
 
+  
+  let firstName;
+  let lastName;
+  let address;
+  let city;
+  let state;
+  let zipCode;
+  let yourAge;
+  let referralSource;
+  let mayWeContactYou;
 
-function stepTwo() {
-  console.log("This is Step 2");
+  
+  firstName = "John";
+  lastName = "Doe";
+  address = "123 Main St";
+  city = "New York";
+  state = "NY";
+  zipCode = "12345";
+  yourAge = 30;
+  referralSource = "Friend";
+  mayWeContactYou = true;
+
+ 
+  let complexExpression1 = (firstName + " " + lastName);
+  let complexExpression2 = yourAge * 2 + 5;
+
+  
+  console.log(complexExpression1);
+  console.log(complexExpression2);
+
+  
+  document.getElementById("output").textContent = complexExpression1;
 }
 
 
-document.addEventListener("DOMContentLoaded", () => {
-  console.log("This is Step 3");
-});
-
-function stepFour() {
-  console.log("This is Step 4");
-}
+theMonth();
 
 
-document.querySelector("h1").addEventListener("click", () => {
-  console.log("This is Step 5");
-});
-
-
-let x = 5 + "10";
-document.getElementById("output").textContent = x;
