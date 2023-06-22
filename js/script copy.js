@@ -1,4 +1,4 @@
-// 1.Function to convert a specific part of a string to camel case
+// Function to convert a specific part of a string to camel case
 function convertPartToCamelCase(str, startIndex, endIndex) {
   var words = str.split(/[-_\s]+/);
   for (var i = startIndex; i <= endIndex; i++) {
@@ -15,26 +15,26 @@ var originalString4 = "let summer_month";
 var originalString5 = "let MyLibrary-function";
 
 // Examples of literal expressions
-var numericLiteral = 2;
-var stringLiteral = "Hello, JavaScript!";
+var numericLiteral = 42;
+var stringLiteral = "Hello, world!";
 var booleanLiteral = true;
 var nullLiteral = null;
 
 // Examples of complex/variable expressions
-var complexExpression1 = numericLiteral * 3 + 1;
+var complexExpression1 = numericLiteral * 2 + 5;
 var complexExpression2 = stringLiteral.toUpperCase() + " OpenAI";
 
 // Declare variables using Camel Casing and Hungarian Notation
 var strFirstName, strLastName, strAddress, strCity, strState, strZipCode, nYourAge, strReferralSource, bMayWeContactYou;
 
 // Declare and assign values to variables using different methods
-strFirstName = "Rie"; // Method 1: Declare and assign value in separate statements
-strLastName = "Wilsterman"; // Method 2: Declare and assign value in a single statement using var keyword
-strAddress = "123 ABC St"; // Method 3: Declare and assign value in a single statement using let keyword
-var strCity = "California";
-var strState = "CA";
-var strZipCode = "1234567";
-var YourAge = 35;
+strFirstName = "John"; // Method 1: Declare and assign value in separate statements
+strLastName = "Doe"; // Method 2: Declare and assign value in a single statement using var keyword
+strAddress = "123 Main St"; // Method 3: Declare and assign value in a single statement using let keyword
+var strCity = "New York";
+var strState = "NY";
+var strZipCode = "12345";
+var YourAge = 25;
 var MayWeContactYou = true;
 // Check and fix the validity of the string literal
 let someString = 'Who once said, "Only two things are infinite, the universe and human stupidity, and I\'m not sure about the former."';
@@ -118,9 +118,9 @@ x /= 1;
 console.log(x);
 
 // Task 21: Using Comparison and Logical operators, evaluate an expression that results in true and display the result in the console window
-let exp1 = (15 > 3) && (10 < 20);
-console.log(exp1);
+let expression1 = (5 > 3) && (10 < 20);
+console.log(expression1);
 
 // Task 22: Using Comparison and Logical operators, evaluate an expression that results in false and display the result in the console window
-let exp2 = (7 <= 4) || !(1 === 1);
-console.log(exp2);
+let expression2 = (7 <= 4) || (8 === 8);
+console.log(expression2);
